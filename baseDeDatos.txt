@@ -1,0 +1,11 @@
+create database examen;
+use examen;
+create table internet(
+id int auto_increment primary key,
+ nombre varchar(50),
+ apellido varchar(50),
+ seminario varchar(50),
+ fecha date 
+);
+insert into internet(nombre, apellido,seminario,fecha)values('franklin','apellido','taller1','0000-
+00-00');
